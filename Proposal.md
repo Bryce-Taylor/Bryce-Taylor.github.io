@@ -30,7 +30,7 @@ look professional and clean looking.
 want about me. 
 - Colors: I need to make sure that I pick the right colors for my website because it will help to make it look better and
 professional.
-- My work: Once the user is looking at my work I like to make a box that has a small description of that project show
+- My work on mobile: Once the user is looking at my work I like to make a box that has a small description of that project show
 when they click it they should have already what the idea is about.
 
 ## Daily Goals
