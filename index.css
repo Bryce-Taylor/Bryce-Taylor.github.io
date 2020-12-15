@@ -117,10 +117,10 @@ img {
 
 .title_box #title {
     position: relative;
-    top: -0.5em;
-    margin-left: 1em;
+    top: -0.2em;
+    margin-left: 0.5em;
     display: inline;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #content {
