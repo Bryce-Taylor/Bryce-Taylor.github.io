@@ -123,6 +123,10 @@ img {
     background-color: rgb(0, 0, 0);
 }
 
+#content {
+    font-size: 1.4rem;
+}
+
 .projects-section {
     text-align: center;
     padding: 10rem 2rem;
