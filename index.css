@@ -233,6 +233,9 @@ nav a:hover {
   #contact-text{
       font-size: 30px;
   }
+  text{
+       font-size: 20px; 
+}
 
 @media(max-width: 1050px){
     h2{
@@ -247,17 +250,20 @@ nav a:hover {
         border-radius: 100%;
     }
     .title_box #title{
-        font-size: 30px;
+        font-size: 50px;
     }
     #content {
         font-size: 23px;
     }
     p{
-        font-size: 35px;
+        font-size: 30px;
+    }
+    .text{
+        font-size: 23px;
     }
     .project-title {
-        font-size: 2.4rem;
-        padding: 1rem 0.5rem;
+        font-size: 1.4rem;
+        padding: 0rem 0.5rem;
     }
 }
 
@@ -268,9 +274,28 @@ nav a:hover {
     .contact-details{
         font-size: 5.4rem;
     }
+    #contact-text{
+        font-size:20px;
+    }
 }
 @media(max-width: 720px){
     .contact-section{
         height: 10vh;
+    }
+    .project-title {
+        font-size: 1.4rem;
+        padding: 0rem 0.5rem;
+    }
+    .title_box #title{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    #contact-text{
+        font-size:large;
     }
 }
