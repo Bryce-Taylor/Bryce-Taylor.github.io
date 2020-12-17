@@ -20,7 +20,7 @@ h2 {
     font-size: 3.2rem;
 }
 p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -253,7 +253,11 @@ nav a:hover {
         font-size: 23px;
     }
     p{
-        font-size: 25px;
+        font-size: 35px;
+    }
+    .project-title {
+        font-size: 2.4rem;
+        padding: 1rem 0.5rem;
     }
 }
 
