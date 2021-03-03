@@ -36,7 +36,9 @@ img {
     display: block;
     max-width: 100vw;
 }
-
+.P2 {
+    font-size: 2.0rem;
+}
 nav {
     display: flex;
     justify-content: flex-end;
@@ -65,7 +67,7 @@ nav{
 nav a {
     display: flex;
     margin: 4 20px;
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     padding: -0.2rem;
 }
 
@@ -109,7 +111,7 @@ nav a:hover {
 
 .title_box {
     border: #ffffff00 10px double;
-    background-color: rgb(83, 47, 47);
+    background-color: gray;
     margin: 1.5rem;
 }
 
@@ -119,8 +121,8 @@ nav a:hover {
 
 .title_box #title {
     position: relative;
-    top: -0.2em;
-    margin-left: 0.1em;
+    top: 0.5em;
+    margin-left: 1.1em;
     font-size: 1.9rem;
     display: inline;
     background-color: rgba(0, 0, 0, 0);
@@ -151,7 +153,6 @@ nav a:hover {
 }
 
 
-/* "Automagic" image grid using no media queries */
 
 .projects-grid {
     display: grid;
@@ -184,7 +185,7 @@ nav a:hover {
 }
 
 .project:hover .code {
-    color: #4febde;
+    color: rgba(78, 184, 233, 0.774);
 }
 
 .project-image {
@@ -223,7 +224,7 @@ nav a:hover {
     transition: transform 0.2s ease-out;
   }
   .contact-details:hover{
-      color: blue;
+      color: rgba(78, 184, 233, 0.774);
   }
   
   .contact-details:hover {
