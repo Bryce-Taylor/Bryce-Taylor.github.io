@@ -1,7 +1,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <link id="style_link" rel="stylesheet" href="index.css" type="text/css">
+    <script src="script.js" defer></script>
 </head>
 
 
@@ -9,10 +10,11 @@
 
 
 <body>
-    <nav id="navbar">
+    <nav id="nav">
         <a href="#info">Info</a>
         <a href="#projects">Work</a>
         <a href="#contact">Contact</a>
+        <button id="button" onclick="themeBackground()">Light Theme</button>
     </nav>
     <!-- END NAV BAR -->
     <!-- START WELCOME TITLE-->
@@ -42,6 +44,8 @@
                 <p class="P2"><i class="fab fa-html5"></i>HTML</p>
                 <p class="P2"><i class="fab fa-css3-alt"></i>CSS</p>
                 <p class="P2"><i class="fas fa-database"></i>SQL</p>
+                <p class="P2">Django</p>
+                <p class="P2"><i class="fab fa-js-square"></i>Javascript</p>
             </div>
         </div>
     </div>
@@ -56,9 +60,9 @@
                 <img class="project-image" src="Screenshot (19).png" alt="project" />
                 <div class="">
                     <div class="project-title">
-                        <span class="code">&lt;</span>Mad Libs Project<span class="code">&#47;&gt;</span>
+                        <h3><span class="code">&lt;</span>Mad Libs Project<span class="code">&#47;&gt;</span></h3>
                         <p class="text">
-                            Randomized Mad libs program
+                            Randomized Mad libs program that provides user guided stories.
                         </p>
                         <div>
                             <span class="code">&lt;</span>Python<span class="code">&#47;&gt;</span>
@@ -73,10 +77,10 @@
                 class="project project-tile">
                 <img class="project-image" src="Screenshot (20).png" alt="project" />
                 <div class="project-title">
-                    <span class="code">&lt;</span> Ndeed Project
-                    <span class="code">&#47;&gt;</span>
+                    <h3><span class="code">&lt;</span> Ndeed Project
+                    <span class="code">&#47;&gt;</span></h3>
                     <p class="text">
-                        Job Finder program 
+                        Job Finder program inspired by Indeed that helps users find a job.
                     </p>
                     <div>
                         <span class="code">&lt;</span>Python/SQL<span class="code">&#47;&gt;</span>
@@ -90,16 +94,33 @@
                 class="project project-tile">
                 <img class="project-image" src="Screenshot(21).png" alt="project" />
                 <div class="project-title">
-                    <span class="code">&lt;</span> My Website
-                    <span class="code">&#47;&gt;</span>
+                    <h3><span class="code">&lt;</span> My Website
+                    <span class="code">&#47;&gt;</span></h3>
                     <p class="text">
-                        Here is a code of my portfolio 
+                        More details for the code in my portfoilo.
                     </p>
                     <div>
                         <span class="code">&lt;</span>HTML/CSS<span class="code">&#47;&gt;</span>
                     </div>
                     <div>
                         <span class="code">&lt;</span>Dec.17 2020<span class="code">&#47;&gt;</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://github.com/BaseCampCoding/django-unit-project-sean-bryce-lathe" target="_blank"
+                class="project project-tile">
+                <img class="project-image" src="candband.png" alt="project" />
+                <div class="project-title">
+                    <h3><span class="code">&lt;</span> Cand Bamp
+                    <span class="code">&#47;&gt;</span></h3>
+                    <p class="text">
+                        A website were you post songs and articles.
+                    </p>
+                    <div>
+                        <span class="code">&lt;</span>Django<span class="code">&#47;&gt;</span>
+                    </div>
+                    <div>
+                        <span class="code">&lt;</span>Mar.19 2021<span class="code">&#47;&gt;</span>
                     </div>
                 </div>
             </a>

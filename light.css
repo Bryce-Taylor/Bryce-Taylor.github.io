@@ -1,18 +1,17 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #595953;
+    background-color: #ffffff;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.4;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #button{
-    border-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    background-color:rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
+    border-radius: 12px;
+    background-color:rgb(7, 7, 7);
+    color:white;
 }
 
 h1 {
@@ -27,7 +26,7 @@ h2 {
     font-size: 3.2rem;
 }
 p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -36,7 +35,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -46,19 +45,20 @@ img {
 .P2 {
     font-size: 2.0rem;
 }
-nav {
+#nav {
     display: flex;
     justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: black; 
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
+    background: rgb(224, 224, 224); 
+    
+    box-shadow: 0 3px 0 rgba(66, 66, 66, 0.4);
     z-index: 10;
 }
 
-nav{
+#nav{
     display: flex;
     margin-right: 10rem;
 }
@@ -79,7 +79,9 @@ nav a {
 }
 
 nav a:hover {
-    background: rgba(78, 184, 233, 0.774);
+    border-radius: 12px;
+    background: rgba(3, 20, 255, 0.699);
+    color: white;
 }
 
 #welcome-title {
@@ -118,7 +120,7 @@ nav a:hover {
 
 .title_box {
     border: #ffffff00 10px double;
-    background-color: gray;
+    background: rgb(224, 224, 224); 
     margin: 1.5rem;
 }
 
@@ -132,7 +134,7 @@ nav a:hover {
     margin-left: 1.1em;
     font-size: 1.9rem;
     display: inline;
-    background-color: rgba(0, 0, 0, 0);
+    background: rgb(224, 224, 224); 
 }
 
 #content {
@@ -149,7 +151,7 @@ nav a:hover {
 .projects-section-header {
     max-width: 640px;
     margin: 0 auto 1rem auto;
-    border-bottom: 0.1rem solid rgb(255, 255, 255);
+    border-bottom: 0.1rem solid rgb(48, 42, 42);
     font-size: 5rem;
 }
 
@@ -182,19 +184,18 @@ nav a:hover {
 }
 
 .project {
-    background: gray;
+    background: rgb(224, 224, 224); 
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
 }
 
 .code {
-    font-weight: bold;
-    color: gray;
+    color:rgb(224, 224, 224); 
     transition: color 0.3s ease-out;
 }
 
 .project:hover .code {
-    color: rgba(78, 184, 233, 0.774);
+    color: rgba(3, 20, 255, 0.699);
 }
 
 .project-image {
@@ -216,7 +217,7 @@ nav a:hover {
     width: 100%;
     height: 20vh;
     padding: -9 1rem;
-    background: gray;
+    background: rgb(224, 224, 224); 
   }
 .contact-links {
     display: flex;
@@ -233,7 +234,7 @@ nav a:hover {
     transition: transform 0.2s ease-out;
   }
   .contact-details:hover{
-      color: rgba(78, 184, 233, 0.774);
+    color: rgba(3, 20, 255, 0.699);
   }
   
   .contact-details:hover {
@@ -268,10 +269,10 @@ nav a:hover {
         font-size: 23px;
     }
     p{
-        font-size: 20px;
+        font-size: 30px;
     }
     .text{
-        font-size: 24px;
+        font-size: 23px;
     }
     .project-title {
         font-size: 1.4rem;
