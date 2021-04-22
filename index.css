@@ -1,18 +1,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #595953;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.4;
-    color: rgb(255, 255, 255);
 }
 
+
 #button{
-    border-color: rgb(255, 255, 255);
     border-radius: 50px;
-    background-color:rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
 }
 
 h1 {
@@ -36,7 +32,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 img {
@@ -53,8 +48,6 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: black; 
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
 
@@ -78,9 +71,6 @@ nav a {
     padding: -0.2rem;
 }
 
-nav a:hover {
-    background: rgba(78, 184, 233, 0.774);
-}
 
 #welcome-title {
     display: flex;
@@ -114,25 +104,22 @@ nav a:hover {
     border-radius: 100%;
 }
 
-
-
-.title_box {
-    border: #ffffff00 10px double;
-    background-color: gray;
+.about_box {
+    border: #e6cece00 10px double;
     margin: 1.5rem;
 }
+
 
 #info{
     padding-top: 70px;
 }
 
-.title_box #title {
+.about_box #about {
     position: relative;
     top: 0.5em;
     margin-left: 1.1em;
     font-size: 1.9rem;
     display: inline;
-    background-color: rgba(0, 0, 0, 0);
 }
 
 #content {
@@ -149,9 +136,9 @@ nav a:hover {
 .projects-section-header {
     max-width: 640px;
     margin: 0 auto 1rem auto;
-    border-bottom: 0.1rem solid rgb(255, 255, 255);
     font-size: 5rem;
 }
+
 
 
 @media (max-width: 1050px) {
@@ -182,22 +169,19 @@ nav a:hover {
 }
 
 .project {
-    background: gray;
+    
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
+    
 }
 
 .code {
     font-weight: bold;
-    color: gray;
-    transition: color 0.3s ease-out;
 }
 
-.project:hover .code {
-    color: rgba(78, 184, 233, 0.774);
-}
 
 .project-image {
+    border-radius: 10px;
     height: auto;
     width: 100%;
     object-fit: cover;
@@ -205,8 +189,10 @@ nav a:hover {
 
 .project-title {
     font-size: 1.4rem;
-    padding: 1rem 0.5rem;
+    border-radius: 12px;
+    padding: 0.5rem 0.5rem;
 }
+
 .contact-section {
     display: flex;
     flex-direction: row;
@@ -214,9 +200,8 @@ nav a:hover {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 20vh;
-    padding: -9 1rem;
-    background: gray;
+    height: 10vh;
+    padding: 0.5rem 0.5rem;
   }
 .contact-links {
     display: flex;
@@ -231,9 +216,6 @@ nav a:hover {
     font-size: 2.7rem;
     /* text-shadow: 2px 2px 1px #1f1f1f; */
     transition: transform 0.2s ease-out;
-  }
-  .contact-details:hover{
-      color: rgba(78, 184, 233, 0.774);
   }
   
   .contact-details:hover {
@@ -275,7 +257,7 @@ nav a:hover {
     }
     .project-title {
         font-size: 1.4rem;
-        padding: 0rem 0.5rem;
+        padding: 0.5rem 0.5rem;
     }
 }
 
@@ -296,7 +278,7 @@ nav a:hover {
     }
     .project-title {
         font-size: 1.4rem;
-        padding: 0rem 0.5rem;
+        padding: 0.5rem 0.5rem;
     }
     .title_box #title{
         font-size: 30px;
@@ -311,3 +293,123 @@ nav a:hover {
         font-size:large;
     }
 }
+
+.body-dark {
+    background-color: #595953;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.button-dark{
+    border-color: rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    transition: all 0.5s;
+}
+
+.nav-dark{
+    background: black; 
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.5s;
+}
+
+.a-dark{
+    color: white;
+
+}
+
+.nav-a-dark:hover {
+    border-radius: 12px;
+    background: rgba(78, 184, 233, 0.774);
+}
+
+.about_box_dark{
+    background-color: gray;
+    
+}
+
+.header-underline-dark{
+    border-bottom: 0.1rem solid rgb(255, 255, 255);  
+    
+}
+
+.background-dark{
+    background: gray;  
+    transition: all 0.5s;
+}
+
+.color-dark{
+    color: gray;
+    transition: all 0.5s;
+}
+
+.project-dark:hover .color-dark {
+    color: rgba(4, 205, 255, 0.774);
+    transition: color 0.3s ease-out;
+}
+
+.contact-details-dark:hover{
+    color: rgba(78, 184, 233, 0.774);
+}
+
+.body-light {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+
+}
+
+.button-light{
+    border-color: rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.a-light{
+    color: rgb(0, 0, 0);
+    
+}
+
+.nav-light{
+    background: rgb(224, 224, 224); 
+    box-shadow: 0 3px 0 rgba(66, 66, 66, 0.4);
+    transition: all 0.5s;
+}
+.nav-a-light:hover {
+    border-radius: 12px;
+    background: rgba(3, 20, 255, 0.699);
+    color: white;
+    transition: all 0.5s;
+}
+
+.about_box_light{
+    background: rgb(224, 224, 224);
+    
+}
+
+.header-underline-light{
+    border-bottom: 0.1rem solid rgb(0, 0, 0); 
+    
+}
+
+.background-light{
+    background: rgb(224, 224, 224); 
+    transition: all 0.5s;
+}
+
+.color-light{
+    color: rgb(224, 224, 224);
+    transition: all 0.5s;
+}
+
+.project-light:hover .color-light {
+    color: rgba(3, 20, 255, 0.699);
+    transition: color 0.3s ease-out;
+}
+
+.contact-details-light:hover{
+    color: rgba(3, 20, 255, 0.699);
+}
+
+

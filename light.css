@@ -219,7 +219,7 @@ nav a:hover {
     padding: -9 1rem;
     background: rgb(224, 224, 224); 
   }
-.contact-links {
+  .contact-links {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -234,7 +234,7 @@ nav a:hover {
     transition: transform 0.2s ease-out;
   }
   .contact-details:hover{
-    color: rgba(3, 20, 255, 0.699);
+      color: rgba(78, 184, 233, 0.774);
   }
   
   .contact-details:hover {
@@ -311,4 +311,11 @@ nav a:hover {
     #contact-text{
         font-size:large;
     }
+}
+.body-light {
+    transition: all 1.5s;
+}
+
+.nav-light {
+    transition: all 1.5s;
 }
