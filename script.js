@@ -43,6 +43,8 @@ themeButtonInput.addEventListener("click", () => {
     for(const aboutBox of aboutBoxTheme){
         aboutBox.classList.toggle("about_box_dark")
         aboutBox.classList.toggle("about_box_light")
+        aboutBox.classList.toggle("bcca-dark")
+        aboutBox.classList.toggle("bcca-light")
     }
     for(const header of headerTheme){
         header.classList.toggle("header-underline-dark")

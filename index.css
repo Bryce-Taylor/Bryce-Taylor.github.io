@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.4;
@@ -8,19 +8,23 @@ body {
 
 
 #button{
+    font-size: 20px;
     border-radius: 50px;
+    padding: -0.2rem;
+    margin: 4 20px;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
     text-align: center;
     font-size: 3rem;
 }
 h2 {
     font-size: 3.2rem;
+    font-family: "Times New Roman", Times, serif;
 }
 p {
     font-size: 1.4rem;
@@ -68,7 +72,8 @@ nav a {
     display: flex;
     margin: 4 20px;
     font-size: 2.3rem;
-    padding: -0.2rem;
+    padding: 0.2rem;
+    
 }
 
 
@@ -107,6 +112,27 @@ nav a {
 .about_box {
     border: #e6cece00 10px double;
     margin: 1.5rem;
+}
+.bcca-dark a{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+.bcca-light a{
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+}
+
+.bcca-dark a:hover{
+    border-radius: 12px;
+    color: rgba(78, 184, 233, 0.774);
+    transition: all 0.5s;
+    text-decoration: underline;
+}
+.bcca-light a:hover{
+    border-radius: 12px;
+    color: rgba(78, 184, 233, 0.774);
+    transition: all 0.5s;
+    text-decoration: underline;
 }
 
 
@@ -169,10 +195,8 @@ nav a {
 }
 
 .project {
-    
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-    
 }
 
 .code {
@@ -229,7 +253,10 @@ nav a {
   }
   text{
        font-size: 20px; 
-}
+    }
+    .text2{
+        font-size: 15px; 
+     }
 
 @media(max-width: 1050px){
     h2{
@@ -315,12 +342,12 @@ nav a {
 
 .a-dark{
     color: white;
-
 }
 
 .nav-a-dark:hover {
     border-radius: 12px;
     background: rgba(78, 184, 233, 0.774);
+    transition: all 0.5s;
 }
 
 .about_box_dark{
@@ -378,7 +405,7 @@ nav a {
 }
 .nav-a-light:hover {
     border-radius: 12px;
-    background: rgba(3, 20, 255, 0.699);
+    background: rgba(78, 184, 233, 0.774);
     color: white;
     transition: all 0.5s;
 }
@@ -404,12 +431,13 @@ nav a {
 }
 
 .project-light:hover .color-light {
-    color: rgba(3, 20, 255, 0.699);
+    color: rgba(4, 205, 255, 0.774);
     transition: color 0.3s ease-out;
 }
 
 .contact-details-light:hover{
-    color: rgba(3, 20, 255, 0.699);
+    color: rgba(4, 205, 255, 0.774);
+    /* color: rgba(3, 20, 255, 0.699); */
 }
 
 
