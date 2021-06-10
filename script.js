@@ -80,6 +80,14 @@ themeButtonInput.addEventListener("click", () => {
     };
 });
 
+$("#navbar a").click(function(event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTo: $("#info").offset().top
+    }, 2000);
+});
+
 // function themeBackground() {
 //     var cssLink = document.getElementById("style_link");
 //     console.log(isClick)
